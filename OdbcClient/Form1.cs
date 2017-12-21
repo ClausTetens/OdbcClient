@@ -78,7 +78,6 @@ namespace OdbcClient {
 
             for (int i = 0; i < odbcDataReader.FieldCount; ++i) textBox1.AppendText("[" + i + "] " + odbcDataReader.GetName(i) + "   ");
 
-
             //h ttps://msdn.microsoft.com/en-us/library/system.windows.forms.datagridview.columns%28v=vs.110%29.aspx
 
             while(odbcDataReader.Read()) {
